@@ -34,10 +34,20 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
+
+    # Haskell
     pkgs.ghciwatch
+
+    # Languages
+    pkgs.go
+
+    # Shell utils
     pkgs.ripgrep
     pkgs.eza
-    pkgs.go
+    pkgs.jq
+    pkgs.fzf
+    pkgs.fd
+    pkgs.bat
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
