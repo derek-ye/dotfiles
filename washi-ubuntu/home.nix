@@ -52,6 +52,7 @@
     pkgs.fzf
     pkgs.fd
     pkgs.bat
+    pkgs.tmux
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
